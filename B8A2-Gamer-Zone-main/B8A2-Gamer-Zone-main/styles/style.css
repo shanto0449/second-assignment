@@ -1,0 +1,1083 @@
+/* Work Sans Google font import link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* common */
+:root {
+    --primary-color: #0B0223;
+    --secondary-color: (linear-gradient(180deg, #F948B2 0%, #8758F1 100%));
+    --third-color: #3C354F;
+    --linear: #FF42A5;
+    --button-text: uppercase;
+}
+
+
+/* Header Navigation Styles */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo .nav-head {
+    color: var(--linear);
+    padding-left: 1.25rem;
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+
+.nav-logo .nav-span {
+    color: #0B0223;
+}
+
+.nav-container ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    padding-right: 1.25rem;
+    color: var(--third-color);
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.nav-container .li-icon {
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav-container .li-icon a .fa-youtube {
+    color: red;
+}
+
+/* Header Banner Styles */
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.banner-head {
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-span {
+    font-size: 5.938rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-container {
+    padding-top: 120px;
+    padding-left: 120px;
+    width: 50%;
+    height: 100vh;
+    background-image: url("../images/Group 14.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+.text-container p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding: 10px;
+}
+
+.fa-circle-play,
+.fa-download {
+    color: var(--linear)
+}
+
+.image-container {
+    width: 50%;
+
+}
+
+.header-image {
+    width: 80%;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.btn1 {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: 0;
+    padding: 15px 30px;
+    margin-top: 30px;
+    text-transform: var(--button-text);
+    cursor: pointer;
+}
+
+.btn2 {
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    border: 0;
+    padding: 15px 30px;
+    text-transform: var(--button-text);
+    cursor: pointer;
+}
+
+/* Main content banner starts here (we are gamer) */
+.main-content-banner {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content-banner-img {
+    margin-left: 120px;
+    width: 100%;
+}
+
+.main-content-banner-img img {
+    width: 100%;
+}
+
+.btn3 {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: 0;
+    padding: 15px 30px;
+    margin: 20px 0px;
+    text-transform: var(--button-text);
+    cursor: pointer;
+}
+
+.main-content-banner-description {
+    text-align: right;
+    margin-right: 130px;
+    width: 100%;
+}
+
+.main-content-banner-description h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-content-banner-description .main-content-banner-para {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.main-content-banner-description .main-content-banner-para2 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.main-content-banner-description .main-content-banner-para2>span {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Online games Funny video starts */
+.funny-video-container {
+    margin-top: 150px;
+}
+
+.funny-box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 30px auto 0px;
+}
+
+.box figure img {
+    width: 100%;
+    height: auto;
+}
+
+.box figure figcaption {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px;
+}
+
+/* box hover part */
+.show {
+    position: relative;
+}
+
+.show .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.show:hover .overlay {
+    opacity: 1;
+    border: 3px solid #F948B2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.show .overlay i {
+    font-size: 3rem;
+    color: white;
+    margin-right: 10px;
+}
+
+.show .overlay span {
+    font-size: 1.25rem;
+    color: #FF42A5;
+    text-align: center;
+    font-weight: 600;
+}
+
+.funny-video-description h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.funny-video-description h1>.funny-head-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-video-description p {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* Play Instantly position card start here */
+.instant-card-banner-container {
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    margin: 30px auto 0px;
+    align-items: center;
+}
+
+.instant-card-banner-description h1,
+.instant-card-banner-description p {
+    text-align: right;
+}
+
+.instant-card-banner-description h1 {
+    color: var(--primary-color);
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.instant-card-banner-description p {
+    color: var(--third-color);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.instant-card-banner-description span {
+    color: var(--linear);
+}
+
+.instant-card-banner-image {
+    position: relative;
+}
+
+.instant-card-banner-image .instant-card-banner-image1 {
+    width: 80%;
+}
+
+.instant-card-banner-image .instant-card-banner-image2 {
+    width: 40%;
+    position: absolute;
+    top: 70%;
+    left: -20%;
+}
+
+.instant-card-banner-container2 {
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    margin: 30px auto 0px;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.instant-card-banner-description2 {
+    display: grid;
+    order: 1;
+}
+
+.instant-card-banner-description2 h1,
+.instant-card-banner-description2 p {
+    text-align: left;
+}
+
+.instant-card-banner-description2 h1 {
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.instant-card-banner-description2 p {
+    font-size: 1.125rem;
+    color: #534C64;
+    font-weight: 400;
+    text-align: left;
+}
+
+.instant-card-banner-description2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-card-banner-imageX {
+    position: relative;
+    order: -1;
+}
+
+.instant-card-banner-imageX .instant-card-banner-image3 {
+    width: 80%;
+}
+
+.instant-card-banner-imageX .instant-card-banner-image4 {
+    width: 40%;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+
+/* Career bar starts here (optional)  */
+.career-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.career-description {
+    margin-left: 100px;
+}
+
+.career-head {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.career-para {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.career-area {
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.are1,
+.are2,
+.are3,
+.are4,
+.are5,
+.are6 {
+    text-align: right;
+}
+
+.art1 {
+    grid-area: art1;
+}
+
+.art2 {
+    grid-area: art2;
+}
+
+.art3 {
+    grid-area: art3;
+}
+
+.art4 {
+    grid-area: art4;
+}
+
+.art5 {
+    grid-area: art5;
+}
+
+.art6 {
+    grid-area: art6;
+}
+
+.are1 {
+    grid-area: are1;
+}
+
+.are2 {
+    grid-area: are2;
+}
+
+.are3 {
+    grid-area: are3;
+}
+
+.are4 {
+    grid-area: are4;
+}
+
+.are5 {
+    grid-area: are5;
+}
+
+.are6 {
+    grid-area: are6;
+}
+
+.career-area {
+    display: grid;
+    grid-template-areas:
+        "art1 are1"
+        "art2 are2"
+        "art3 are3"
+        "art4 are4"
+        "art5 are5"
+        "art6 are6"
+    ;
+}
+
+.career-image img {
+    width: 100%;
+}
+
+.btn4 {
+    border-radius: 48px;
+    background: #FFF;
+    color: var(--linear);
+    text-transform: var(--button-text);
+    cursor: pointer;
+}
+
+/* Game strategy section styles */
+.game-strategy-container {
+    display: flex;
+    max-width: 68.75rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.card:hover {
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 3.125rem;
+    cursor: pointer;
+}
+
+/* Footer section styles */
+.footer-container {
+    background-color: #0B0223;
+    margin-top: 120px;
+    padding-top: 120px;
+}
+
+.nav-logo .nav-span-footer {
+    color: #ffffff;
+}
+
+.footer-list {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.footer-list li {
+    list-style-type: none;
+
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo span a {
+    padding-right: 50px;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.footer-list-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.footer-list-2 li {
+    list-style-type: none;
+
+}
+
+.footer-list-2 li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-container p {
+    color: #FFF;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 100px;
+}
+
+/* Responsive Design */
+
+/* for mobile devices*/
+@media screen and (max-width: 640px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-container ul {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-container .li-dev {
+        margin-top: 1rem;
+    }
+
+    .nav-container .li-icon {
+        margin-top: 3rem;
+    }
+
+    .header-container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .banner-head {
+        font-size: 1.5rem;
+    }
+
+    .banner-span {
+        font-size: 2.938rem;
+    }
+
+    .text-container {
+        padding-top: 30px;
+        padding-left: 30px;
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    .text-container p {
+        font-size: 0.8rem;
+    }
+
+    .image-container {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .header-image {
+        width: 100%;
+    }
+
+    .btn1,
+    .btn2 {
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    .main-content-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-content-banner-img {
+        margin-left: 0px;
+    }
+
+    .btn3 {
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        border: 0;
+        padding: 15px 30px;
+        margin: 20px 0px;
+
+    }
+
+    .main-content-banner-description {
+        text-align: center;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .main-content-banner-description .main-content-banner-para {
+        color: #534C64;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .main-content-banner-description .main-content-banner-para2 {
+        color: #534C64;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .main-content-banner-description .main-content-banner-para2>span {
+        color: #534C64;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .funny-box-container {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 60%;
+    }
+
+    .funny-video-description h1 {
+        font-size: 1.5rem;
+    }
+
+    .funny-video-description p {
+        font-size: 0.8rem;
+    }
+
+    .instant-card-banner-container {
+        max-width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 30px auto 0px;
+    }
+
+    .instant-card-banner-description h1,
+    .instant-card-banner-description p {
+        text-align: center;
+    }
+
+    .instant-card-banner-description h1 {
+        font-size: 1.5rem;
+    }
+
+    .instant-card-banner-description p {
+        font-size: 0.8rem;
+    }
+
+    .instant-card-banner-container2 {
+        max-width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 30px auto 0px;
+    }
+
+    .instant-card-banner-description2 h1,
+    .instant-card-banner-description2 p {
+        text-align: center;
+    }
+
+    .instant-card-banner-description2 h1 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+    }
+
+    .instant-card-banner-description2 p {
+        font-size: 0.8rem;
+    }
+
+    .instant-card-banner-imageX {
+        order: 1;
+    }
+
+    .career-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 200px auto;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    }
+
+    .career-description {
+        max-width: 640px;
+        margin: 30px 40px;
+    }
+
+    .career-area {
+        font-size: 0.7rem;
+    }
+
+    .btn4 {
+        border-radius: 16px;
+        background: #FFF;
+        color: var(--linear);
+        text-transform: var(--button-text);
+        padding: 10px 10px;
+    }
+
+    .game-strategy-container {
+        display: flex;
+        max-width: 68.75rem;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        margin: 0 auto;
+    }
+
+    .card {
+        /* display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0.1rem; */
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        width: 25%;
+        font-size: 15px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 30px;
+        max-width: 600px;
+        margin: 0 auto;
+        gap: 30px;
+        justify-items: space-evenly;
+        text-align: center;
+    }
+
+    .footer-logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 600px;
+        margin: 0 auto;
+        gap: 30px;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo span a {
+        padding-right: 0px;
+    }
+
+    .footer-list-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+}
+
+/* for tablet devices*/
+@media screen and (min-width:640px) and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-container ul {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-container .li-dev {
+        margin-top: 1rem;
+    }
+
+    .nav-container .li-icon {
+        margin-top: 3rem;
+    }
+
+    .header-container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .banner-head {
+        font-size: 2rem;
+    }
+
+    .banner-span {
+        font-size: 3.938rem;
+    }
+
+    .text-container {
+        padding-top: 50px;
+        padding-left: 200px;
+        width: 100%;
+        background-position: center;
+    }
+
+    .text-container p {
+        font-size: 1rem;
+    }
+
+    .image-container {
+        width: 100%;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .header-image {
+        width: 50%;
+    }
+
+    .main-content-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-content-banner-img {
+        margin-left: 0px;
+    }
+
+    .btn3 {
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        border: 0;
+        padding: 15px 30px;
+        margin: 20px 0px;
+
+    }
+
+    .main-content-banner-description {
+        text-align: center;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .main-content-banner-description .main-content-banner-para {
+        color: #534C64;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .main-content-banner-description .main-content-banner-para2 {
+        color: #534C64;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .main-content-banner-description .main-content-banner-para2>span {
+        color: #534C64;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .funny-box-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 60%;
+    }
+
+    .funny-video-description h1 {
+        font-size: 2rem;
+    }
+
+    .funny-video-description p {
+        font-size: 1rem;
+    }
+
+    .instant-card-banner-container {
+        max-width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 30px auto 0px;
+    }
+
+    .instant-card-banner-description h1,
+    .instant-card-banner-description p {
+        text-align: center;
+    }
+
+    .instant-card-banner-description h1 {
+        font-size: 1.5rem;
+    }
+
+    .instant-card-banner-description p {
+        font-size: 0.8rem;
+    }
+
+    .instant-card-banner-container2 {
+        max-width: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin: 30px auto 0px;
+    }
+
+    .instant-card-banner-description2 h1,
+    .instant-card-banner-description2 p {
+        text-align: center;
+    }
+
+    .instant-card-banner-description2 h1 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+    }
+
+    .instant-card-banner-description2 p {
+        font-size: 0.8rem;
+    }
+
+    .instant-card-banner-imageX {
+        order: 1;
+    }
+
+    .career-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 200px auto;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    }
+
+    .career-description {
+        max-width: 640px;
+        margin: 30px 100px;
+    }
+
+    .career-area {
+        font-size: 0.7rem;
+    }
+
+    .btn4 {
+        border-radius: 16px;
+        background: #FFF;
+        color: var(--linear);
+        text-transform: var(--button-text);
+    }
+
+    .game-strategy-container {
+        justify-content: space-around;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0.1rem;
+    }
+}
